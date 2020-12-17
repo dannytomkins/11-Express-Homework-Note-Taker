@@ -1,0 +1,19 @@
+{
+  "name": "11-express-homework-note-taker",
+  "version": "1.0.0",
+  "description": "Unit 11 Express Homework: Note Taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceynice/11-Express-Homework-Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niceynice/11-Express-Homework-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/niceynice/11-Express-Homework-Note-Taker#readme"
+}
