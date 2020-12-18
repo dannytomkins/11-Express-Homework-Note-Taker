@@ -6,8 +6,20 @@ router.get("/api/notes",function(req,res){
 })
 
 router.post("/api/notes",function(req,res){
-    console.log(req.body)
-    db.push(req.body)
+    //console.log(req.body)
+    const newnote = {
+        title: req.body.title,
+        text: req.body.text,
+        id: db.length
+    }
+    db.push(newnote)
+    res.json(db)
+})
+
+//delete??? need to give notes individual id's
+router.delete("/api/notes/:id",function(req,res){
+    console.log(req.params.id)
+    db.splice(req.params.id, 1)
     res.json(db)
 })
 
